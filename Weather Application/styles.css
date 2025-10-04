@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+header {
+    background: #007BFF;
+    color: white;
+    padding: 10px;
+}
+nav button {
+    margin: 5px;
+    padding: 10px;
+    border: none;
+    background: #0056b3;
+    color: white;
+    cursor: pointer;
+}
+
+/* Temperature, Humidity, UV, Wind pages background */
+.temperature { background-color: #FFCC00; }
+.humidity { background-color: rgb(59, 193, 238); }
+.uv { background-color: red; }
+.wind { background-color: #CCCCCC; }
